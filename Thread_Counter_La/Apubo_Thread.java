@@ -1,6 +1,6 @@
 import java.util.concurrent.atomic.AtomicLong;
 
-public class Anom_Thread implements Runnable {
+public class Apurbo_Thread implements Runnable {
 
     // Static counter (shared by ALL objects/threads)
     static AtomicLong safeStaticCount = new AtomicLong(0);   // Experiment A
